@@ -32,6 +32,9 @@
 /data/vendor/log/audiopcm(/.*)?                u:object_r:vendor_audiopcm_data_file:s0
 /data/vendor/secradio(/.*)?                    u:object_r:radio_vendor_data_file:s0
 
+# Process and system statistics files
+/proc/stat u:object_r:proc_stat:s0
+
 # Devices
 /dev/android_rndis_qc                          u:object_r:radio_device:s0
 /dev/cdma_.*                                   u:object_r:radio_device:s0

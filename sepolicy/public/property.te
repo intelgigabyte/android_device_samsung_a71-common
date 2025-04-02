@@ -1,2 +1,5 @@
 # Fingerprint
-system_public_prop(vendor_fingerprint_prop)
+system_public_prop(vendor_fingerprint_prop) 
+
+# SettingsLib
+system_public_prop(settingslib_prop)
