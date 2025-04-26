@@ -705,6 +705,11 @@ on property:vold.decrypt=trigger_restart_framework
     start qcom-c_main-sh
     start wcnss-service
 
+on post-fs-data
+    # Charge Bypass
+    chown system system /sys/class/power_supply/battery
+    chmod 0660 /sys/class/power_supply/battery
+
 on property:vendor.netflix.bsp_rev=*
     setprop ro.netflix.bsp_rev ${vendor.netflix.bsp_rev}
 
