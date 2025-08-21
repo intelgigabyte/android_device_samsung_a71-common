@@ -2,21 +2,21 @@
   {
     "repository": "crdroidandroid/android_kernel_samsung_a71",
     "target_path": "kernel/samsung/a71",
-    "branch": "15.0"
+    "branch": "16.0"
   },
   {
     "repository": "crdroidandroid/android_hardware_samsung",
     "target_path": "hardware/samsung",
-    "branch": "15.0"
+    "branch": "16.0"
   },
   {
     "repository": "crdroidandroid/proprietary_vendor_samsung_a71-common",
     "target_path": "vendor/samsung/a71-common",
-    "branch": "15.0"
+    "branch": "16.0"
   },
   {
     "repository": "crdroidandroid/android_hardware_dolby",
     "target_path": "hardware/dolby",
-    "branch": "15.0"
+    "branch": "16.0"
   }
 ]
