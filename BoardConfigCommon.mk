@@ -143,7 +143,7 @@ TARGET_KERNEL_SOURCE := kernel/samsung/a71
 TARGET_USES_ION := true
 
 # Partitions
-include vendor/lineage/config/BoardConfigReservedSize.mk
+include vendor/infinity/config/BoardConfigReservedSize.mk
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_CACHEIMAGE_PARTITION_SIZE := 419430400

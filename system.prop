@@ -8,3 +8,10 @@ ro.vendor.qti.va_aosp.support=1
 persist.sys.softsim.netmode=4g
 persist.sys.softsim.status=default,default
 persist.sys.softsim.type=default
+
+# Device Definition
+ro.product.marketname=Samsung Galaxy A71 4G
+ro.infinity.soc=Snapdragon 730
+ro.infinity.battery=4500 mAh
+ro.infinity.display=1080 x 2400, 60 Hz
+ro.infinity.camera=64MP + 12MP + 5MP + 5MP
